@@ -1,0 +1,1 @@
+// chaincode for adminContract
