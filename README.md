@@ -60,6 +60,13 @@
 
 The CBDC Network Setup repository provides detailed instructions for setting up a Central Bank Digital Currency (CBDC) network using Hyperledger Fabric. This guide aims to assist users in establishing a fully functional CBDC network by providing clear step-by-step instructions and scripts.
 
+<p align="center">
+  <a href="https://github.com/wroetoshaw/CBDC_NetworkSetup">
+    <img src="https://github.com/wroetoshaw/CBDC_NetworkSetup/blob/main/images/final.jpg" alt="Logo" style="width: 100%; height: auto;">
+  </a>
+</p>
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CERTIFICATE AUTHORITIES (CA) -->
@@ -88,6 +95,12 @@ The `create.sh` script is used to create a new channel within the CBDC network. 
 ### channel/join.sh
 
 The `join.sh` script is used to join a peer to an existing channel within the CBDC network. It requires parameters like the channel name and peer information to join the specified peer to the channel.
+
+<p align="center">
+  <a href="https://github.com/wroetoshaw/CBDC_NetworkSetup">
+    <img src="https://github.com/wroetoshaw/CBDC_NetworkSetup/blob/main/images/channel.jpg" alt="Logo" style="width: 100%; height: auto;">
+  </a>
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,6 +145,12 @@ The network directory contains various utility scripts for managing and operatin
 ### network/all.sh
 
 The `all.sh` script combines multiple operations to perform a complete setup of the CBDC network. It includes tasks such as generating cryptographic material, creating channels, joining peers to channels, installing chaincode, and starting the network.
+
+<p align="center">
+  <a href="https://github.com/wroetoshaw/CBDC_NetworkSetup">
+    <img src="https://github.com/wroetoshaw/CBDC_NetworkSetup/blob/main/images/network.jpg" alt="Logo" style="width: 100%; height: auto;">
+  </a>
+</p>
 
 ### network/clean.sh
 
